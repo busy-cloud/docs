@@ -20,9 +20,9 @@ export default defineConfig({
 
         nav: [
             {text: '首页', link: '/'},
-            {text: '本易云', link: '/busy-cloud'},
-            {text: '物联大师', link: '/iot-master'},
-            {text: '物联小白', link: '/iot-noob'},
+            {text: '文档', link: '/busy-cloud'},
+            {text: '产品库', link: '/product'},
+            {text: '应用库', link: '/app'},
         ],
 
         footer: {
@@ -42,6 +42,7 @@ export default defineConfig({
                     {text: '说明', link: '/busy-cloud'},
                     {text: '下载安装', link: '/busy-cloud/install'},
                     {text: 'MQTT消息定义', link: '/busy-cloud/mqtt'},
+                    {text: '物模型定义', link: '/busy-cloud/model'},
                 ]
             },
             {
