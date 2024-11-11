@@ -15,7 +15,7 @@ hero:
       link: /try
     - theme: alt
       text: 文档
-      link: /busy-cloud
+      link: /busy-cloud/
 
 features:
   - title: 真正开源免费

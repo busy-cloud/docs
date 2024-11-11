@@ -35,8 +35,8 @@ export default defineConfig({
             },
             {
                 text: '公司', items: [
-                    {text: '招聘', link: '/company/career'},
-                    {text: '合作伙伴', link: '/company/partner'},
+                    {text: '招聘', link: '/company/careers'},
+                    {text: '合作伙伴', link: '/company/partners'},
                     {text: '关于我们', link: '/company/about'},
                 ]
             },
