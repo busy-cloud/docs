@@ -2,12 +2,21 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    lang: 'zh-CN',
     title: "本易云",
     description: "本易物联网数据中台 南京本易物联网有限公司",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
 
         logo: '/logo.png',
+
+        lastUpdated: {
+            text: '最后更新',
+        },
+
+        search: {
+            provider: 'local'
+        },
 
         nav: [
             {text: '首页', link: '/'},
@@ -22,7 +31,8 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: 'https://github.com/busy-cloud/docs/edit/main/:path'
+            pattern: 'https://github.com/busy-cloud/docs/edit/main/:path',
+            text: '编辑本页'
         },
 
         sidebar: [
