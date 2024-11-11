@@ -20,9 +20,26 @@ export default defineConfig({
 
         nav: [
             {text: '首页', link: '/'},
-            {text: '文档', link: '/busy-cloud'},
-            {text: '产品库', link: '/product'},
-            {text: '应用库', link: '/app'},
+            {
+                text: '产品', items: [
+                    {text: '本易云', link: '/busy-cloud/'},
+                    {text: '物联大师', link: '/iot-master/'},
+                    {text: '物联小白', link: '/iot-noob/'},
+                ]
+            },
+            {
+                text: '资源', items: [
+                    {text: '产品库', link: 'https://hub.busycloud.cn'},
+                    {text: '应用库', link: 'https://hub.busycloud.cn'},
+                ]
+            },
+            {
+                text: '公司', items: [
+                    {text: '招聘', link: '/company/career'},
+                    {text: '合作伙伴', link: '/company/partner'},
+                    {text: '关于我们', link: '/company/about'},
+                ]
+            },
         ],
 
         footer: {
@@ -35,32 +52,61 @@ export default defineConfig({
             text: '编辑本页'
         },
 
-        sidebar: [
-            {
-                text: '本易云',
-                items: [
-                    {text: '说明', link: '/busy-cloud'},
-                    {text: '下载安装', link: '/busy-cloud/install'},
-                    {text: 'MQTT消息定义', link: '/busy-cloud/mqtt'},
-                    {text: '物模型定义', link: '/busy-cloud/model'},
-                ]
-            },
-            {
-                text: '物联大师',
-                items: [
-                    {text: '说明', link: '/iot-master'},
-                ]
-            },
-            {
-                text: '物联小白',
-                items: [
-                    {text: '说明', link: '/iot-noob'},
-                ]
-            },
-        ],
+        sidebar: {
+            '/busy-cloud/': [
+                {
+                    text: '本易云', base: '/busy-cloud/', items: [
+                        {text: '说明', link: 'index'},
+                        {text: '下载安装', link: 'install'},
+                        {
+                            text: 'MQTT', items: [
+                                {text: '鉴权', link: 'mqtt-auth'},
+                                {text: '设备消息', link: 'mqtt-device'},
+                                {text: '网关消息', link: 'mqtt-gateway'},
+                                {text: '平台消息', link: 'mqtt-platform'},
+                            ]
+                        },
+                        {
+                            text: '物模型', items: [
+                                {text: '属性', link: 'model-attribute'},
+                                {text: '事件', link: 'model-event'},
+                                {text: '操作', link: 'model-action'},
+                            ]
+                        },
+                        {
+                            text: '使用手册', items: [
+                                {text: '网关管理', link: '-'},
+                                {text: '设备管理', link: '-'},
+                                {text: '产品管理', link: '-'},
+                                {text: '数据管理', link: '-'},
+                                {text: '用户管理', link: '-'},
+                            ]
+                        },
+                        {
+                            text: '插件', items: [
+                                {text: '数据仓库', link: '-'},
+                                {text: 'web应用托管', link: '-'},
+                                {text: 'web组态', link: '-'},
+                                {text: '用户管理', link: '-'},
+                            ]
+                        },
+                    ]
+                },
+                {
+                    text: '更多', items: [
+                        {text: '物联大师', link: '/iot-master'},
+                        {text: '物联小白', link: '/iot-noob'},
+                    ]
+                }
+            ],
+
+            '/iot-master/': [],
+
+            '/iot-noob/': [],
+        },
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/busy-cloud'}
+            {icon: 'github', link: 'https://github.com/busy-cloud/busycloud'}
         ]
     }
 })

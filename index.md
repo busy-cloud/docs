@@ -20,6 +20,8 @@ hero:
 features:
   - title: 真正开源免费
     details: 代码完全开源，不玩套路，任何人都可以参与开发
+    linkText: 浏览
+    link: https://github.com/busy-cloud/busycloud
   - title: 简洁而不简单
     details: 集成MQTT总线和数据库，单一可执行文件，无需复杂的配置，一键启动，方便小白操作
   - title: 高性能低消耗
