@@ -5,6 +5,20 @@ export default defineConfig({
     lang: 'zh-CN',
     title: "本易云",
     description: "本易物联网数据中台 南京本易物联网有限公司",
+
+    head: [
+        //百度统计
+        ['script', {}, `
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e4e6c5bee3dc93c1f623e9e2ad313fca";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+      `,],
+    ],
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
 
