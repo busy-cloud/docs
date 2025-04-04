@@ -34,17 +34,15 @@ var _hmt = _hmt || [];
 
         nav: [
             {text: '首页', link: '/'},
+            {text: '开放平台', link: 'https://hub.busycloud.cn'},
             {
                 text: '产品', items: [
-                    {text: '本易云', link: '/busy-cloud/'},
                     {text: '物联大师', link: '/iot-master/'},
                     {text: '物联小白', link: '/iot-noob/'},
                 ]
             },
             {
-                text: '资源', items: [
-                    {text: '产品库', link: 'https://hub.busycloud.cn'},
-                    {text: '应用库', link: 'https://hub.busycloud.cn'},
+                text: '解决方案', items: [
                 ]
             },
             {

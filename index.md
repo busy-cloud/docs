@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "本易云"
+  name: "本易物联"
   text: "物联网数据中台"
   tagline: 标准化物联网设备托管平台，能够支持大部分的物联网应用场景，帮助用户和集成商解决最基本的设备接入问题
   actions:
