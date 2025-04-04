@@ -3,8 +3,8 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     lang: 'zh-CN',
-    title: "本易云",
-    description: "本易物联网数据中台 南京本易物联网有限公司",
+    title: "本易物联",
+    description: "物联大师 物联小白 物联网数据中台 南京本易物联网有限公司",
 
     head: [
         //百度统计
@@ -67,7 +67,7 @@ var _hmt = _hmt || [];
         sidebar: {
             '/busy-cloud/': [
                 {
-                    text: '本易云', base: '/busy-cloud/', items: [
+                    text: '本易物联', base: '/busy-cloud/', items: [
                         {text: '说明', link: 'index'},
                         {text: '下载安装', link: 'install'},
                         {
