@@ -37,12 +37,8 @@ var _hmt = _hmt || [];
             {text: '开放平台', link: 'https://hub.busycloud.cn'},
             {
                 text: '产品', items: [
-                    {text: '物联大师', link: '/iot-master/'},
-                    {text: '物联小白', link: '/iot-noob/'},
-                ]
-            },
-            {
-                text: '解决方案', items: [
+                    {text: '物联大师', link: 'https://github.com/god-jason/iot-master'},
+                    {text: '物联小白', link: 'https://github.com/god-jason/iot-noob'},
                 ]
             },
             {
