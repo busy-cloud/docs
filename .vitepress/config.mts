@@ -34,7 +34,7 @@ var _hmt = _hmt || [];
 
         nav: [
             {text: '首页', link: '/'},
-            {text: '开放平台', link: 'https://hub.busycloud.cn'},
+            {text: '平台', link: 'https://iot.busycloud.cn'},
             {
                 text: '产品', items: [
                     {text: '物联大师', link: 'https://github.com/god-jason/iot-master'},
@@ -87,14 +87,6 @@ var _hmt = _hmt || [];
                                 {text: '设备管理', link: '-'},
                                 {text: '产品管理', link: '-'},
                                 {text: '数据管理', link: '-'},
-                                {text: '用户管理', link: '-'},
-                            ]
-                        },
-                        {
-                            text: '插件', items: [
-                                {text: '数据仓库', link: '-'},
-                                {text: 'web应用托管', link: '-'},
-                                {text: 'web组态', link: '-'},
                                 {text: '用户管理', link: '-'},
                             ]
                         },
