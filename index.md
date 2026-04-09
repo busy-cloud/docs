@@ -12,7 +12,7 @@ hero:
       link: https://github.com/god-jason/iot-master/releases
     - theme: alt
       text: 体验
-      link: https://demo.busycloud.cn
+      link: https://iot.busycloud.cn
     - theme: alt
       text: 文档
       link: /iot-master/
